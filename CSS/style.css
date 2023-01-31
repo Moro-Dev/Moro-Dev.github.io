@@ -17,9 +17,10 @@ body {
     width: 250px;
     border: 2px solid #333;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.35);
+    aspect-ratio: 0.8;
   }
   
-  * {
+  *{
     box-sizing: border-box;
   }
   
@@ -62,9 +63,9 @@ body {
     padding: 10px;
     margin-bottom: 10px;
     text-decoration: none;
-    border: 1px solid #555;
+    border: 2px solid #555;
     box-shadow: -2px 2px 1px rgba(0, 0, 0, 0.35);
-    color: #555;
+    color: rgb(12, 12, 12);
   }
   
   ul li a:hover, ul li a:active {
