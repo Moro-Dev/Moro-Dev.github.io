@@ -1,5 +1,5 @@
 body {
-    background-color: #1565c0;
+    background-color: #f7d29b;
     margin: 0;
     font-family: 'Lora', serif;
     font-size: 14px;
@@ -25,7 +25,7 @@ body {
   }
   
   header h1 {
-    color: rgb(196, 190, 210);
+    color: #30b6b8;
     margin: 10px 0 0;
   }
   
@@ -57,7 +57,7 @@ body {
   }
   
   ul li a:link, ul li a:visited {
-    background-color: #4fc3f7;
+    background-color: #64d1d2;
     font-size: 18px;
     display: block;
     padding: 10px;
@@ -80,4 +80,13 @@ body {
     max-width: 90%;
     margin: 20px auto;
   }
-  
+  .container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+  }
+
+
+
