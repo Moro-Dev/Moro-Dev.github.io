@@ -34,13 +34,20 @@ body {
     display: inline-block;
     margin: 0 5px;
     max-width: inherit;
+    transition: 500ms;
   }
+
   
   
   nav a:link img {
-    max-width: 30px;
+    max-width: 34px;
   }
   
+/* No puedo hacer la animacion de los iconos sin que se rompa !!(se mueve todo con el hover)
+  nav a:link img:hover{
+    max-width: 45px;
+  }
+*/
   .descripcion {
     padding: 0 25px;
     max-width: 360px;
@@ -62,15 +69,18 @@ body {
     display: block;
     padding: 10px;
     margin-bottom: 10px;
+    border-radius: 25px;
     text-decoration: none;
     border: 2px solid #555;
-    box-shadow: -2px 2px 1px rgba(0, 0, 0, 0.35);
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.35);
     color: rgb(12, 12, 12);
+    transition: all 50ms;
   }
   
   ul li a:hover, ul li a:active {
     background-color: antiquewhite;
     box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.5);
+    transform: scale(1.03);
   }
   
   hr {
