@@ -37,7 +37,8 @@ contenedoresTareas.forEach((contenedor, index) => {
 
       alerta.style.display = "flex"
 
-      tituloTareas.style.textDecoration = "line-through";
+      tituloTareas.style.textDecoration = "line-through"
+      tituloTareas.style.color = "#533483";
     } else {
       tituloTareas.style.textDecoration = "none";
       alerta.style.display = "none"
