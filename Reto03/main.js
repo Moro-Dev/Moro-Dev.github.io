@@ -35,7 +35,7 @@ contenedoresTareas.forEach((contenedor, index) => {
 
       parrafo.textContent = saludo
 
-      alerta.style.display = "block"
+      alerta.style.display = "flex"
 
       tituloTareas.style.textDecoration = "line-through";
     } else {
